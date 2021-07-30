@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="211.39.150.243" id="4ce67f7d-476e-472d-a9ed-11f2b0a19339" localPort="8080" port="22" customName="리팅CRM" nameFormat="CUSTOM" username="mman">
+        <option name="customName" value="리팅CRM" />
+      </sshConfig>
+      <sshConfig host="3.36.31.41" id="3828824b-a66e-4780-92d1-27e18e76d0ca" keyPath="$USER_HOME$/서버정보/리팅랩스 AWS/dating-aws.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" />
+      <sshConfig authType="PASSWORD" host="211.39.150.247" id="f4beea69-12d4-4c90-8f69-f1d0b7f7bd10" port="2022" nameFormat="DESCRIPTIVE" username="mman" />
+    </configs>
+  </component>
+</project>

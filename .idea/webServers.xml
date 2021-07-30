@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="654f1e1d-7003-40cc-b8ae-a3d0bae37d77" name="리팅CRM" url="">
+        <fileTransfer rootFolder="/www" accessType="SFTP" host="211.39.150.243" port="22" sshConfigId="4ce67f7d-476e-472d-a9ed-11f2b0a19339" sshConfig="리팅CRM">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="dde8044a-e39e-46f3-ad0c-c08e24568a24" name="liting">
+        <fileTransfer rootFolder="/www" accessType="SFTP" host="211.39.150.243" port="22" sshConfigId="4ce67f7d-476e-472d-a9ed-11f2b0a19339" sshConfig="리팅CRM">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8da2af4f-52f5-4b06-ad79-45023454af20" name="liting 실서버">
+        <fileTransfer rootFolder="/www" accessType="SFTP" host="3.36.31.41" port="22" sshConfigId="3828824b-a66e-4780-92d1-27e18e76d0ca" sshConfig="ec2-user@3.36.31.41:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3e215e47-222c-403e-b25e-73f3a27e83c7" name="211.39.150.247">
+        <fileTransfer rootFolder="/www" accessType="SFTP" host="211.39.150.247" port="2022" sshConfigId="f4beea69-12d4-4c90-8f69-f1d0b7f7bd10" sshConfig="mman@211.39.150.247:2022 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
